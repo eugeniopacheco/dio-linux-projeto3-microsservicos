@@ -13,13 +13,12 @@ header('Content-Type: text/html; charset=iso-8859-1');
 
 echo 'Versao Atual do PHP: ' . phpversion() . '<br>';
 
-$servername = "54.234.153.24";
+$servername = "192.168.0.163";
 $username = "root";
 $password = "Senha123";
 $database = "meubanco";
 
 // Criar conexão
-
 
 $link = new mysqli($servername, $username, $password, $database);
 
